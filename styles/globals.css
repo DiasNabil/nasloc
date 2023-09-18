@@ -1,0 +1,231 @@
+:root {
+  --brand-color: #B00B0B;
+  --support-color: #0D0000;
+  --darker-text-color: #210000;
+  --dark-text-color: #423838;
+  --light-text-color: #F9EDED;
+  --neutral: #EDEBEB;
+}
+
+
+
+body {
+  color: var(--darker-text-color);
+  background-color: var(--neutral);
+  overflow-x: hidden;
+  z-index: 0;
+  position: relative;
+  margin: 0;
+}
+
+body > * {
+  margin: auto;
+  padding-left: 2vw ;
+  padding-right: 2vw;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title{
+  font-family: var(--font-kanit);
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--darker-text-color);
+  margin: 0;
+}
+
+.sub-title{
+  font-family: var(--font-kanit);
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: var(--darker-text-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text{
+  font-family: var(--font-kanit);
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: var(--dark-text-color);
+  margin: 0;
+}
+
+.interaction{
+  font-family: var(--font-kanit);
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: var(--brand-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.second-interaction{
+  font-family: var(--font-kanit);
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--brand-color);
+  margin: 0;
+}
+
+.cta-btn{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border: var(--brand-color) solid 1px;
+  background-color: var(--brand-color);
+  cursor: pointer;
+  .interaction{
+    color: var(--light-text-color);
+  }
+}
+.cta-btn:hover{
+  background-color: var(--neutral);
+  .interaction{
+    color: var(--brand-color);
+  }
+}
+
+.nav-btn{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: var(--brand-color) solid 1px;
+  border-radius: 10px;
+  background-color: var(--brand-color);
+  cursor: pointer;
+
+  .second-interaction{
+    color: var(--light-text-color);
+    text-transform: uppercase;
+  }
+
+}
+
+
+.logo{
+  width: 100px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em ;
+
+  .imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo{
+      width: 8vw;
+    }
+  }
+}
+
+.footer{
+  display: flex;
+  gap: 3vw;
+  width: 100%;
+  justify-content: center;
+
+  .content{
+      display: flex;
+      flex-direction: row;
+      
+      gap: 10vw;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+
+      .logo{
+           height: fit-content;
+           cursor: pointer;
+           width: 10vw;
+      }
+
+      .lists{
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          gap: 5vw;
+
+          .list{
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              margin: 0;
+
+              .underline{
+                  border-bottom:0.5px black solid;
+                  width: 40%;
+                  margin-bottom: 1vw;
+              }
+              .li{
+                  list-style-type: none;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  gap: 0.5vw;
+
+                  .icon{
+                      height: 1.55vw;
+                  }
+
+                  .text{
+                      font-size: 1.25vw;
+                      cursor: pointer;
+                  }
+              }
+          }
+      }
+
+  }
+
+  .text{
+      display: flex;
+      justify-content: center;
+      font-size: 1vw;
+  }
+}
+
+.dark{
+  background-color: var(--support-color);
+  
+
+  .content{
+      .lists{
+          .list{
+              .sub-title{
+                  color: var(--neutral);
+              }
+              .underline{
+                  border-bottom: white solid 0.5px;
+              }
+              .li{
+                  .text{
+                      color: var(--neutral);
+                  }
+              }
+          }
+      }
+
+  }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px){
+
+    .hero{
+        .content{
+            .text{
+                width: 80%;
+            }
+        }
+    }
+
+    .formSection{
+        flex-direction: column;
+        .content{
+            width: 80%;
+        }
+        .form{
+            width: 80%;
+            border-radius: 15px ;
+            padding: 6vw;
+        }
+    }
+}

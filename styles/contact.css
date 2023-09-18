@@ -1,0 +1,87 @@
+.hero{
+    height: auto;
+    background-image:url('/contactPage-bg.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .content{
+        margin: 10vw 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title{
+            color: var(--neutral);
+            margin-bottom: 2vw;
+        }
+        .text{
+            color: var(--neutral);
+            text-align: center;
+            width: 35%;
+        }
+    }
+}
+
+.formSection{
+    margin: 10vw 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+
+    .content{
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        .text{
+            text-align: center;
+        }
+    }
+
+    .form{
+        border-radius: 30px;
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        padding: 3vw;
+        gap: 8px;
+        .input{
+            border: none;
+            background-color: var(--neutral);
+            border-radius: 10px;
+            padding: 2vw;
+            width: 90%;
+            resize: none;
+            font-family: var(--font-kanit);
+            font-size: 18px;
+            color: var(--support-color);
+
+        }
+
+        .cta-btn{
+            width: 95%;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+        .cta-btn:hover{
+            background-color:#D9D9D9;
+            .interaction{
+              color: var(--brand-color);
+            }
+          }
+    }
+
+
+}
+
+
+input::placeholder , textarea::placeholder{
+    font-family: var(--font-kanit);
+    font-size: 18px;
+}

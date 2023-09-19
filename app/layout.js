@@ -16,6 +16,11 @@ export const metadata = {
     default: "NASLOC - Location d'équipement de construction et peinture",
     template: '%s | Nasloc'
   },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
   description: '',
 }
 

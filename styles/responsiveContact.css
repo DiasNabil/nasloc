@@ -2,6 +2,9 @@
 
     .hero{
         .content{
+            .title{
+                text-align: center;
+            }
             .text{
                 width: 80%;
             }

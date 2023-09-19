@@ -1,5 +1,7 @@
 @media screen and (max-width: 600px){
-
+    body{
+        overflow-x: hidden;
+    }
     .sub-title{
         font-size: 3vw;
     }

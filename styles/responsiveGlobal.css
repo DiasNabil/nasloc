@@ -43,6 +43,7 @@
                     .li{
                         .text{
                             font-size: 1.75vw;
+                            text-decoration: none;
                         }
                     }
                 }

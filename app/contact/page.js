@@ -1,6 +1,5 @@
 import '@/styles/contact.css'
-import '@/styles/responsiveGlobal.css'
-import '@/styles/responsiveContact.css'
+
 
 
 import Footer from '@/components/Footer'

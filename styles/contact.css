@@ -85,3 +85,29 @@ input::placeholder , textarea::placeholder{
     font-family: var(--font-kanit);
     font-size: 18px;
 }
+
+@media screen and (max-width: 600px){
+
+    .hero{
+        .content{
+            .title{
+                text-align: center;
+            }
+            .text{
+                width: 80%;
+            }
+        }
+    }
+
+    .formSection{
+        flex-direction: column;
+        .content{
+            width: 80%;
+        }
+        .form{
+            width: 80%;
+            border-radius: 15px ;
+            padding: 6vw;
+        }
+    }
+}

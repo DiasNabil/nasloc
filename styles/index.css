@@ -295,3 +295,67 @@
     }
 }
 
+@media screen and (max-width: 600px){
+
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: fit-content;
+        .hero-text{
+            width: 90%;
+            padding: 0;
+        }
+        .img{
+            width: 100%;
+            height: 30vh;
+        }
+    }
+    
+    .about{
+        flex-direction: column-reverse;
+        gap: 15vw;
+        padding: 0;
+        padding-top: 15vw;
+        padding-bottom: 1px;
+        .img-container{
+            width: 100%;
+        }
+        .content{
+            gap: 3vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            width: 100%;
+    
+                .cta-btn{
+                    margin-top: 6vw;
+                }
+        }
+    }
+    
+    .services{
+        .serviceCards{
+            .serviceCard{
+                .glass{
+                    border-radius: 15px;
+                }
+            }
+        }
+    }   
+    
+    .contact{
+            height: fit-content;
+            .content{
+                padding-top: 15vw;
+                padding-bottom: 15vw;
+                .text{
+                    width: 100%;
+                }
+                .cta-btn{
+                    margin-top: 6vw;
+                }
+            }
+    }
+
+}
+

@@ -1,5 +1,3 @@
-
-
 import '../styles/globals.css'
 import localFont  from 'next/font/local'
 
@@ -16,12 +14,11 @@ export const metadata = {
     default: "NASLOC - Location d'équipement de construction et peinture",
     template: '%s | Nasloc'
   },
-/*  viewport: {
+viewport: {
     width: 'device-width',
     initialScale: 1,
     maximumScale: 1,
   },
-*/
   description: 'Nous vous facilitons la vie dans la réalisation de vos projets',
 }
 

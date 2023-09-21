@@ -1,6 +1,5 @@
 import '@/styles/index.css'
-import '@/styles/responsiveGlobal.css'
-import '@/styles/responsive.css'
+
 
 import Navbar  from '../components/Navbar.jsx'
 import Hero from '@/components/Home comp/Hero.jsx'

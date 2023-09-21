@@ -263,6 +263,9 @@ div{
       width: 100%;
       .content{
           gap: 1vw;
+          .logo{
+            width: 10vw;
+          }
           .lists{
               gap: 1vw;
               padding-left: 1vw;
@@ -272,11 +275,11 @@ div{
               .list{
                   padding-inline-start: 1vw;
                   .sub-title{
-                      font-size: 2vw;
+                      font-size: 2.75vw;
                   }
                   .li{
                       .text{
-                          font-size: 1.75vw;
+                          font-size: 2.5vw;
                           text-decoration: none;
                       }
                   }
